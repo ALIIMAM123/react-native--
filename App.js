@@ -2,14 +2,12 @@
 
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
-
-// import FlatListDemo from "./src/screens/FlatListDemo";
-import ImagesFile from "./src/screens/Images";
+import MyButton from "./src/screens/Button";
 
 const App = () => {
 	return (
 		<View>
-			<ImagesFile />
+			<MyButton />
 		</View>
 	);
 };
